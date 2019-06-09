@@ -1,0 +1,12 @@
+slownik = {"imie" : "Michal", "nazwisko" : "Jogoda", "wiek" : 28}
+print(slownik["imie"])
+
+slownik["imie"] = "Krzysztof"
+slownik["zawod"] = "Programista"
+print(slownik)
+
+del slownik["nazwisko"]
+print(slownik)
+
+slownik["nazwisko2"] = "Jagoda"
+print(slownik)

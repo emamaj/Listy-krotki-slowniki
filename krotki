@@ -1,0 +1,15 @@
+krotka1 = ("abc", "def", "ghi", "jkl")
+
+print(krotka1)
+print(krotka1[1])
+print(krotka1[1:2])
+
+krotka2 = ("xyz", )
+krotka3 = krotka1 + krotka2
+
+print(krotka3)
+
+lista = list(krotka3)
+lista.append("slowa")
+
+print(lista)
